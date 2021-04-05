@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  overflow-x: auto;
+}
+
+.Match {
+  list-style-type: none;
+}
+
+.MatchList {
+  padding-bottom: 4px;
 }
 
 .App-logo {
@@ -35,4 +44,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Logosize {
+  width: 40%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.MatchText {
+  padding-bottom: 5px;
+  display: inline;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_style {
+  font-size: 3vw;
+  overflow: hidden;
+  white-space: nowrap;
 }
